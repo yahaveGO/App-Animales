@@ -18,28 +18,54 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tvItemField"
-                android:layout_width="300sp"
+                android:id="@+id/nombre"
+                android:layout_width="150sp"
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimary"
                 android:gravity="left"
-                android:text="Selecciona una imagen"
+                android:text="Nombre: "
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/posicion"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="left"
+                android:text="Posicion: "
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="170px"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvItemField"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="left"
+                android:text="Colibri"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/tvItemContent"
-                android:layout_width="300sp"
+                android:layout_width="150sp"
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimary"
                 android:gravity="left"
-                android:text=""
+                android:text="0"
                 android:textColor="@color/white"
                 android:textSize="25sp" />
         </LinearLayout>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_abrir"
             android:layout_width="match_parent"
             android:layout_height="170px"
             android:background="@color/colorMain"
