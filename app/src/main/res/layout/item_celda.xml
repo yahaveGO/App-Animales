@@ -4,32 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/tvItemField"
+        android:id="@+id/tvAnimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:gravity="left"
+        android:layout_margin="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:background="@color/colorMain"
+        android:gravity="center"
+        android:text=""
         android:textColor="@color/white"
-        android:textSize="25sp"
-        android:text="Animal: " />
+        android:textSize="20sp"/>
 
-    <TextView
-        android:id="@+id/tvItemContent"
+    <ImageView
+        android:id="@+id/imaViewCelda"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:gravity="left"
-        android:textColor="color/white"
-        android:textSize="25sp"
-        android:text="Position: " />
-
-    <ListView
-        android:id="@+id/lvItems"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"/>
 </LinearLayout>
